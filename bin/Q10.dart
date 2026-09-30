@@ -7,5 +7,6 @@
   }
 
   var filteredList = [for(var i in list) if (i>10) i];
-  print(filteredList);
+  print('First 10 Fibonacci numbers: $list');  
+  print('Fibonacci numbers greater than 10: $filteredList');  
 }
