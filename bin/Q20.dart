@@ -13,16 +13,16 @@ void main() {
   // Use a switch statement to print the price of the selected item  
   switch (choice) {  
     case 1:  
-      print('Pizza: \$12.00');  
+      print('Pizza: 2400 Rs');  
       break;  
     case 2:  
-      print('Burger: \$8.00');  
+      print('Burger: 800 Rs');  
       break;  
     case 3:  
-      print('Pasta: \$10.00');  
+      print('Pasta: 1000 Rs');  
       break;  
     case 4:  
-      print('Salad: \$6.00');  
+      print('Salad: 600 Rs');  
       break;  
     default:  
       print('Invalid choice');  
