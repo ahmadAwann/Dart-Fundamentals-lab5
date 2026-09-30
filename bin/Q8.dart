@@ -9,6 +9,6 @@
   for (var val in productPrices.entries){
     sum+= val.value;
   }
-  var newMap = {...productPrices,if(discount)"Disount":sum+sum*0.10};
+  var newMap = {...productPrices,if(discount)"Disount":sum*0.10};
   print(newMap);
 }
